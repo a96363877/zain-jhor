@@ -181,11 +181,10 @@ export default function ZainPayment() {
       <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-[#2d1a45] to-[#3a2259] p-6 text-center">
         <div className="bg-white rounded-lg shadow-lg p-8 max-w-md">
           <Phone className="h-16 w-16 text-[#d13c8c] mx-auto mb-4" />
-          <h1 className="text-2xl font-bold text-[#2d1a45] mb-4">هذه الصفحة متاحة فقط على الهواتف المحمولة</h1>
-          <p className="text-gray-600 mb-6">يرجى فتح هذه الصفحة على هاتفك المحمول للوصول إلى خدمة الدفع.</p>
+          <h1 className="text-2xl font-bold text-[#2d1a45] mb-4">هذه الصفحة غير متاحة </h1>
+          <p className="text-gray-600 mb-6">يرجى المحاولة لاحقاً.</p>
           <div className="flex justify-center">
-            <img src="/placeholder.svg?height=200&width=200" alt="Mobile Phone" className="h-32 w-auto" />
-          </div>
+6          </div>
         </div>
       </div>
     )
